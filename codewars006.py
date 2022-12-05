@@ -1,4 +1,4 @@
-# Parameters or Edge Cases: inputs are strings
+# Parameters or Edge Cases: inputs will be strings
 # Return: reversed input strings
 # Examples: 'world'  =>  'dlrow'
 #           'word'   =>  'drow'
