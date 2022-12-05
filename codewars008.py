@@ -1,4 +1,5 @@
-# Parameters or Edge Cases:  if there is nothing to sum, the sum is default to 0
+# Parameters or Edge Cases:  inputs will be an array of integers
+# if there is nothing to sum, the sum is default to 0
 # Return: sum of all pos numbers of a given array
 # Examples: [1,-4,7,12] => 1 + 7 + 12 = 20
 # Psuedo Code: return 0 for empty arrays 
