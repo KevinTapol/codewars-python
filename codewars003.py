@@ -1,4 +1,4 @@
-# Parameters or Edge Cases:
+# Parameters or Edge Cases: inputs will be integers and can be negative
 # Return: opposite value int or float 
 # Examples: 1: -1
 #           14: -14
