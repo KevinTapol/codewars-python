@@ -5,9 +5,14 @@
 # Psuedo Code: simple method start stop step but this starts at the end if values of start and stop are empty and steps by -1
 # side note in js I would .split('') but you CANNOT split by individual character strings. This throws an error. The method .reverse() works with strings too.
 
-# best practices and most clever
+# my answer best practices and most clever
 def solution(string):
     return string[::-1]
+
+print(solution("world")) # "dlrow"
+print(solution("word")) # "drow"
+print(solution("string")) # "gnirts"
+print(solution("racecar")) # "racecar"
 
 # using lambda reminds me of an arrow function
 solution = lambda s: s[::-1]

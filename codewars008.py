@@ -16,6 +16,8 @@ def positive_sum(arr):
             sum = sum + x
     return sum
 
+print(positive_sum([1,-4,7,12])) # 20
+
 # best practices and most clever
 def positive_sum(arr):
     return sum(x for x in arr if x > 0)

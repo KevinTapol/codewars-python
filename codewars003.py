@@ -8,6 +8,10 @@
 # my answer
 def opposite(number):
     return number * (-1)
+print(opposite(1)) # -1
+print(opposite(0)) # 0
+print(opposite(14)) # -14
+print(opposite(-34)) # 34
 
 # best practices
 def opposite(number):
