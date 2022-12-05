@@ -1,4 +1,4 @@
-# Parameters or Edge Cases:
+# Parameters or Edge Cases: inputs will be integers and can be negative
 # Return: a number as a string
 # Examples: 123  --> "123"
 #           999  --> "999"
