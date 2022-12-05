@@ -1,4 +1,4 @@
-# Parameters or Edge Cases: input is a number can be negative or 0
+# Parameters or Edge Cases: inputs will be integers and can be negative or 0
 # Return: return a negative number
 # Examples: make_negative(1);  # return -1
 #           make_negative(-5); # return -5
