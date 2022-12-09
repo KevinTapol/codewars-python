@@ -7,7 +7,7 @@
       </a><a target="_blank" href="https://www.codewars.com/users/KevinTap">
       </br></br>
         <p align="center">
-          <img align="center" width="300px" src="./img/DailyPush.png" width="100%"  alt="#"/>
+          <img align="center" width="100%" src="./img/DailyPush.png"   alt="#"/>
         </p>
       </a>
       <br />
