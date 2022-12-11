@@ -1,13 +1,15 @@
-# String Repeat
-# Parameters or Edge Cases:
-#       given two inputs interger n and string s
-# Return:
-#       the string s integer n times
-# Examples:
-#       6, "I"     -> "IIIIII"
-#       5, "Hello" -> "HelloHelloHelloHelloHello"
-# Psuedo Code:
-#       return the product of the inputs for python but for javascript I'd have to use .repeat()
+"""
+String Repeat
+Parameters or Edge Cases:
+      given two inputs interger n and string s
+Return:
+      the string s integer n times
+Examples:
+      6, "I"     -> "IIIIII"
+      5, "Hello" -> "HelloHelloHelloHelloHello"
+Psuedo Code:
+      return the product of the inputs for python but for javascript I'd have to use .repeat()
+"""
 
 # my answer, best practices and most clever
 def repeat_str(repeat, string):
@@ -15,6 +17,9 @@ def repeat_str(repeat, string):
 
 print(repeat_str(6,"I")) # "IIIIII"
 print(repeat_str(5, "Hello")) # "HelloHelloHelloHelloHello"
+
+# my answer refactored lambda
+repeat_str = lambda repeat, string: repeat*string
 
 # for loop using += to a declared string variable
 def repeat_str(repeat, string):
@@ -62,3 +67,13 @@ repeat_str=__import__('operator').mul
 # using int() for the integer input
 def repeat_str(repeat, string):
     return string + repeat_str(repeat-1, string) if repeat else ''
+
+# using f string
+def repeat_str(repeat, string):
+    return f"{string * repeat}"
+
+# using reduce() and repeat()
+import functools, itertools
+
+def repeat_str(repeat, string):
+    return functools.reduce(lambda a, b: a + b, itertools.repeat(string, repeat))
