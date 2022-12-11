@@ -1,9 +1,14 @@
-# Parameters or Edge Cases: inputs will be strings
-# Return: reversed input strings
-# Examples: 'world'  =>  'dlrow'
-#           'word'   =>  'drow'
-# Psuedo Code: simple method start stop step but this starts at the end if values of start and stop are empty and steps by -1
-# side note in js I would .split('') but you CANNOT split by individual character strings. This throws an error. The method .reverse() works with strings too.
+"""
+Parameters or Edge Cases: 
+    inputs will be strings
+Return: 
+    reversed input strings
+Examples: 
+    'world'  =>  'dlrow'
+    'word'   =>  'drow'
+Psuedo Code: 
+    simple method start stop step but this starts at the end if values of start and stop are empty and steps by -1
+"""
 
 # my answer best practices and most clever
 def solution(string):
