@@ -1,10 +1,16 @@
-# Parameters or Edge Cases: inputs will be integers and can be negative or 0
-# Return: return a negative number
-# Examples: make_negative(1);  # return -1
-#           make_negative(-5); # return -5
-#           make_negative(0);  # return 0
-# Psuedo Code: if number is 0 return 0
-#              else multiply by -1 return product
+"""
+Parameters or Edge Cases: 
+    inputs will be integers and can be negative or 0
+Return: 
+    return a negative number
+Examples: 
+    make_negative(1);  # return -1
+    make_negative(-5); # return -5
+    make_negative(0);  # return 0
+Psuedo Code: 
+    if number is 0 return 0
+    else multiply by -1 return product
+"""
 
 # my answer
 def make_negative( number ):
