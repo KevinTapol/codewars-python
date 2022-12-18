@@ -13,7 +13,7 @@
       <br />
       <p align="center"> 
        <a target="_blank" href="https://github.com/KevinTapol/codewars-js" >
-            <img height="30" src="https://img.shields.io/static/v1?label=&message=CLICK_HERE_FOR_JS_GITHUB_REPO&color=3388ff&style=plastic&logo=&logo-color=white"/>
+            <img height="30" src="https://img.shields.io/static/v1?label=|&message=CLICK_HERE_FOR_JS_GITHUB_REPO&color=3388ff&style=plastic&logo=github&logo-color=white"/>
         </a>
         </br>
       </a> <!--Click website icon link to open a new window to My Codewars Profile changed hex color=cdf998 to 3388ff deleted lable=| and logo=wordpress-->
