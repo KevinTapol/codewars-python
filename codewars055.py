@@ -52,3 +52,7 @@ greet = lambda n,o: "Hello {}".format(["guest","boss"][n==o])
 # using %s instead of f string or .format with a nested conditional
 def greet(name, owner):
     return 'Hello %s' %('boss' if name==owner else 'guest')
+
+# using not equals for to reverse the list index location call
+def greet(name, owner):
+    return ("Hello boss", "Hello guest")[name != owner]
