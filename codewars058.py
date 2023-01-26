@@ -35,3 +35,53 @@ def get_average(marks):
 
 # same as above but implicit one line function return
 get_average = lambda m: int(__import__("numpy").mean(m))
+
+# import both numpy and math
+import math
+import numpy
+def get_average(marks):
+    number =  numpy.average(marks)
+    return math.floor(number)
+
+# for loop
+def get_average(marks):
+    sum = 0
+    for x in marks:
+        sum = sum + x
+    num = len(marks)
+    ans = sum/num
+    return int(ans)
+
+# another for loop
+import math
+def get_average(marks):
+    sum = 0
+    for num in marks:
+        sum += num
+    total = sum / len(marks)
+    return math.floor(total)
+
+# one line for loop
+def get_average(marks):
+    return sum(n for n in marks) // len(marks)
+
+def get_average(marks):
+    sum = 0
+    for num in marks:
+        sum += num
+    total = sum / len(marks)
+    return math.floor(total)
+
+# importing from statistics
+from statistics import mean
+def get_average(array):
+    return int(mean(array))
+
+# importing statistics in line
+def get_average(marks):
+    return int(__import__("statistics").mean(marks))
+
+# using trunc()
+from math import trunc
+def get_average(marks):
+    return trunc(sum(marks)/len(marks))
