@@ -22,6 +22,8 @@
     # iterate through the input array and if the element is even, append it to the even array
     # if it is odd, append it to the odd array
     # if the length of the even array is 1 then return the first index of that array else return the first index of the odd array
+    # odd integers % 2 return 1
+    # even integers % 2 return 0
 
 # my answer
 def find_outlier(integers):
