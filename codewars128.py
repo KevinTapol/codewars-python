@@ -71,6 +71,7 @@ print(is_prime(-1)) # False
 # best practices and most clever
 #  x >>= y works the same as x = x >> y
 # This is the Miller-Rabin test for primes, which works for super large n
+# As appanoid pointed out: this solution is incorrect because it will occasionally return True for very large numbers that aren't prime.
 
 import random
 
